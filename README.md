@@ -12,4 +12,6 @@
 
 ## ✅ Fonctionnalités
 
-- ✅ A completer
+- ✅ Création Backend en PHP Laravel et Frontend en Vue.js
+- ✅ BDD faite sur Postgresql grâce à Eloquent
+- ✅ Cycle complet pour la route API sur l'affichage des menus
