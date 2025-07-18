@@ -6,7 +6,7 @@
 
 ## 📌 À propos
 
-> Ce projet a été réalisé en solo dans le cadre d'une formation à Ada Tech School afin de travailler des acquis.
+> Ce projet a été réalisé en solo en 4h dans le cadre d'une formation à Ada Tech School afin de travailler des acquis.
 
 ---
 
