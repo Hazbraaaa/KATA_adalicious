@@ -8,6 +8,25 @@
 
 <script setup>
 import OrderItem from "../components/OrderItem.vue";
+import { ref, onMounted } from 'vue';
 
+const orderList = ref([]);
+
+function loadOrders() {
+    fetch("http://localhost:8000/api/orders", {
+      method: 'GET',
+    })
+      .then(response => response.json())
+      .then(data => {
+        orderList.value = data;
+      })
+      .catch(error => {
+        console.log(error);
+      });
+}
+
+onMounted(() => {
+  loadOrders();
+})
 
 </script>
