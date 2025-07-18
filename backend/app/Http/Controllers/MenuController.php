@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 use App\Models\Menu;
 
 class MenuController extends Controller {
+    public function getMenus (Request $request) {
+        $menus = Menu::all();
 
-    public function displayMenu (Request $request) {
-        return Menu;
+        return response()->json($menus);
     }
 }
